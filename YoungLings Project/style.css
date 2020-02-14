@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding-right: 0ch;
+}
+
+body{
+  background-image: url(art.jpg); 
+  background-size: cover; 
+}
+ 
+
+img {
+  border-radius: 50%;
+  box-shadow: rgb(144, 43, 226);
+  }
+  .Portfolio{
+    float: center;
+    box-shadow: rgb(144, 43, 226);
+
+  }
+  
+
+  
+.Contacts_form{
+  color: purple;
+
+}
+
+
+h1 {
+  color:blue;
+  background-color: rgba(128, 0, 128, 0.39);
+  border: solid black;
+  box-shadow: rgb(144, 43, 226) ;
+  text-align: center;
+  font-size:18px ;
+  } 
+  h2 {
+       color: purple;
+       font-size: 18px;
+       text-align: right;
+       flex-direction: row-reverse;
+  }
+  .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+
+p {
+  color: purple;
+  text-align: center;
+  font-size: 18px;  
+}
+.ul {
+  color: whitesmoke;
+
+}
+  .topnav {
+         background-color: black;
+         overflow: hidden;
+        }  
+.topnav a{
+  float: right;
+  display: block;
+  color: purple;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 17px;
+}
+.top-nav a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+
+  .topnav a.active{
+    background-color:#4CAF50;
+    color: white;
+
+  }
+
+.topnav .icon{
+  display: none;
+}
+
+
+.imgBox{
+  float: right;
+}
+
+.content h2{
+  text-align: center;
+  padding-bottom: 200px;
+}
+.footer {
+  font-size: 14px ;
+  background-color: rgba(128, 0, 128, 0.39);
+  
+}
+  
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.ul{
+  color: purple;
+  font-size: 18px;
+}
